@@ -13,9 +13,9 @@ class Cat
     @dogs = []
   end  
   
-    def self.all 	  end
-      @@all 	
-    end	  def self.all
+  def self.all 	  
+    @@all 	
+  end
 
     @@all
     def self.count	  end
