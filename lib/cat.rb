@@ -25,17 +25,7 @@ class Cat
     "I am a #{self.species}."	
   end
 
-    "I am a #{self.species}."
-    def buy_cat(name)	  end
-        Cat.new(name, self)	
-    end	  def buy_cat(name)
 
-    Cat.new(name, self)
-    def buy_dog(name)	  end
-        Dog.new(name, self)	
-  def buy_dog(name)
-    Dog.new(name, self)
-  end
 
   def walk_dogs
    self.dogs.each {|dog| dog.mood = "happy"}
