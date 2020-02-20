@@ -53,4 +53,8 @@ class Cat
       dog.mood = "nervous
     end
   end
+  
+    def list_pets
+        self.dogs.each {|dog| dog.mood = "happy"}	    number_of_dogs = self.dogs.count
+    end	    number_of_cats = self.cats.count
 end
