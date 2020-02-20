@@ -45,7 +45,7 @@ class Owner
     self.cats.each do |cat|
       self.cats.delete(cat)
       cat.owner = nil
-      cat.mood = "nervous
+      cat.mood = "nervous"
     end
     self.dogs.each do |dog|
       self.dogs.delete(dog)
@@ -57,6 +57,6 @@ class Owner
   def list_pets
     number_of_dogs = self.dogs.count
     number_of_cats = self.cats.count
-    "I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
+    
   end
 end
