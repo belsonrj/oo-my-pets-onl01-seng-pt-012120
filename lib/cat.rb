@@ -25,7 +25,8 @@ class Cat
     "I am a #{self.species}."	
   end
 
-  def 
+  def buy_cat(name)
+    
   
   def buy_dog(name)
     Dog.new(name, self)
