@@ -12,4 +12,5 @@ class Dog
     owner.dogs << self
   end
   
-  
+  def self.all 
+    
