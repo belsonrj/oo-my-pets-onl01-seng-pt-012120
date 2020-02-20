@@ -21,9 +21,9 @@ class Cat
     self.all.length
   end
 
-  def say_species	  end
+  def say_species
     "I am a #{self.species}."	
-    end	  def say_species
+  end
 
     "I am a #{self.species}."
     def buy_cat(name)	  end
