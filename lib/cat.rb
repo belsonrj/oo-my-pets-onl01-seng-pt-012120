@@ -26,7 +26,7 @@ class Cat
   end
 
   def buy_cat(name)
-    
+    Cat.new
   
   def buy_dog(name)
     Dog.new(name, self)
