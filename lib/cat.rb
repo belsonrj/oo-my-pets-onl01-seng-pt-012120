@@ -18,10 +18,9 @@ class Cat
   end
 
   def self.count
-    self.all.length	
-    end	  def self.count
-
     self.all.length
+  end
+
     def say_species	  end
         "I am a #{self.species}."	
     end	  def say_species
