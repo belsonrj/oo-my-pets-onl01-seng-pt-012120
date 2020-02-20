@@ -17,9 +17,8 @@ class Cat
     @@all 	
   end
 
-    @@all
-    def self.count	  end
-        self.all.length	
+  def self.count
+    self.all.length	
     end	  def self.count
 
     self.all.length
